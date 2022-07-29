@@ -45,3 +45,10 @@ span{
     padding: 0.1rem 0.7rem;
     border-radius: 1rem;
 }
+#answer{
+    margin-top: 2.5rem;
+}
+#stat{
+    margin-top: 1.5rem;
+    color: rgb(6,17,168);
+}	
