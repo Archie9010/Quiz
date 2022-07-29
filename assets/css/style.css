@@ -21,6 +21,9 @@ body{
     cursor: default;
     border-radius: 1rem;
 }
+#question{
+    margin-bottom: 1rem;
+}
 .option{
     margin-bottom: 0.5rem;
     font-size: 1.2rem;
@@ -28,4 +31,7 @@ body{
     width: 15rem;
     background: lightblue;
     border-radius: 1rem;
+}
+.option:hover{
+    color: white;
 }
