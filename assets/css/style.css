@@ -35,3 +35,13 @@ body{
 .option:hover{
     color: white;
 }
+ol{
+    position: relative;
+    padding: 0 1.5rem;
+    color: rgb(1,73,73);
+}
+span{
+    display: block;
+    padding: 0.1rem 0.7rem;
+    border-radius: 1rem;
+}
