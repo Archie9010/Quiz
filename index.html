@@ -34,8 +34,26 @@
             <button type="button" class="next">Next</button>
         </div>
     </div> 
+
+<!--score section-->
+<div id="scoreboard">
+    <img src="media/logo.png" alt="">
+    <h2 id="score-title">Your Score</h2>
+<!--score-->    
+    <h2 id="score">score</h2>
+    <button type="button" id="score-btn" onclick="backToQuiz()">Back to Quiz</button>
+    <button type="button" id="check-answer" onclick="checkAnswer()">Check Answers</button>
+</div>
     
     </div>
+     <!--answer section-->
+     <div id="answerBank">
+        <h2>Answers :</h2>
+        <ol type="1" id="answers">
+
+        </ol>
+        <button type="button" onclick="backToQuiz()">Back to Quiz</button>
+    </div> 
 
     <script src="assets/js/script.js"></script>
 </body>
