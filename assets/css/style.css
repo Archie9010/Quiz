@@ -1,13 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Lato:wght@300&display=swap');
-
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    font-family: Cinzel, sans-serif;
+    font-family: sans-serif;
     background: linear-gradient(to bottom right, #3333ff 0%, #00ff99 100%);
     background-position: center;
     background-repeat: no-repeat;
