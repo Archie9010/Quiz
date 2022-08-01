@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     font-family: sans-serif;
     background: linear-gradient(to bottom right, #3333ff 0%, #00ff99 100%);
@@ -67,6 +72,7 @@ button{
 button:active{
     background: lavender;
 }
+/*scoreboard*/
 #scoreboard,#answerBank{
     width: 20rem;
     background: rgba(230,230,250,0.77);
@@ -81,5 +87,16 @@ button:active{
     margin: 1rem 0;
 }
 #score-btn,#check-answer{
+    margin-top: 1rem;
+}
+#score{
+    font-size: 2.5rem;
+}
+#answerBank li{
+    text-align: left;
+    margin-bottom: 0.2rem;
+    font-size: larger;
+}
+#answers{
     margin-top: 1rem;
 }

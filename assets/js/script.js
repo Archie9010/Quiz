@@ -102,8 +102,6 @@ function nextQuestion(){
         scoreboard.style.display= 'block'
     }
 }
-//click events to next question button
-next.addEventListener('click',nextQuestion);
 
 //Back to Quiz button event
     function backToQuiz(){
