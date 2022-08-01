@@ -54,7 +54,6 @@ var questionBank= [
 
 var question= document.getElementById('question');
 var quizContainer= document.getElementById('quiz-container');
-var scorecard= document.getElementById('scorecard');
 var option0= document.getElementById('option0');
 var option1= document.getElementById('option1');
 var option2= document.getElementById('option2');
@@ -99,7 +98,7 @@ function nextQuestion(){
     else{
         points.innerHTML= score+ '/'+ questionBank.length;
         quizContainer.style.display= 'none';
-        scoreboard.style.display= 'block'
+        scoreboard.style.display= 'block';
     }
 }
 
@@ -122,4 +121,4 @@ function checkAnswer(){
     }
 }
 
-displayQuestion()
+displayQuestion();
