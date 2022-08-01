@@ -50,7 +50,7 @@ var questionBank= [
         option : ['18 Months','20 Months','22 Months','24 Months'],
         answer : '22 Months'
     },
-]
+];
 
 var question= document.getElementById('question');
 var quizContainer= document.getElementById('quiz-container');
@@ -58,7 +58,6 @@ var option0= document.getElementById('option0');
 var option1= document.getElementById('option1');
 var option2= document.getElementById('option2');
 var option3= document.getElementById('option3');
-var next= document.querySelector('.next');
 var points= document.getElementById('score');
 var span= document.querySelectorAll('span');
 var i=0;
@@ -74,7 +73,6 @@ function displayQuestion(){
     option1.innerHTML= questionBank[i].option[1];
     option2.innerHTML= questionBank[i].option[2];
     option3.innerHTML= questionBank[i].option[3];
-    stat.innerHTML= "Question"+' '+(i+1)+' '+'of'+' '+questionBank.length;
 }
 //function to calculate scores
 function calcScore(e){
@@ -112,7 +110,7 @@ function checkAnswer(){
     var answerBank= document.getElementById('answerBank');
     var answers= document.getElementById('answers');
     answerBank.style.display= 'block';
-    scoreboard.style.display= 'none';
+
     for(var a=0;a<questionBank.length;a++)
     {
         var list= document.createElement('li');
