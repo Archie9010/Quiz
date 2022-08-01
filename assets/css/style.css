@@ -77,3 +77,9 @@ button:active{
     top: 5rem;
     display: none;
 }
+#score-title{
+    margin: 1rem 0;
+}
+#score-btn,#check-answer{
+    margin-top: 1rem;
+}
