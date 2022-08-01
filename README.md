@@ -13,6 +13,7 @@ Welcome to [Big Quiz]() Big Quiz is a free web application for all your knowledg
 
 ## Technologies Used
 
+ * [Javascript](https://en.wikipedia.org/wiki/JavaScript)
  * [HTML5](https://en.wikipedia.org/wiki/HTML5)
  * [CSS3](https://en.wikipedia.org/wiki/CSS)
  * [Git](https://en.wikipedia.org/wiki/Git) 
@@ -24,7 +25,6 @@ The wireframe model is created as part of the project planning. Its task is to g
 
 ## Features
 
-### Navigation Bar
 
 * Featured at the top of the page, The navigation shows the page name in the left corner: Beautiful Castles that links to the Home page. When hovered over Home, Castles and Contact golden underline appears for easy navigation
 * Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Castles and Contact page and is identical on each page to allow for easy navigation.
