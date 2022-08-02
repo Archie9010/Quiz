@@ -1,6 +1,6 @@
 # Big Quiz
 
-Welcome to [Big Quiz]() Big Quiz is a free web application for all your knowledge needs. The topics currently available are: Geography, Science, Anatomy and Astronomy. With Big Quiz, you can easily and efficiently refresh or expand on what you already know. Idea of design of this app is to keep it simple and easy to navigate. 
+Welcome to [Big Quiz](https://archie9010.github.io/Quiz/) Big Quiz is a free web application for all your knowledge needs. The topics currently available are: Geography, Science, Anatomy and Astronomy. With Big Quiz, you can easily and efficiently refresh or expand on what you already know. Website was desinged with idea to be simple and easy to use with minimal complexity.
 
 ![mockup](assets/media/mockup.png)
 
@@ -20,11 +20,12 @@ Welcome to [Big Quiz]() Big Quiz is a free web application for all your knowledg
  * [Github](https://en.wikipedia.org/wiki/GitHub) 
 
  ## Wireframe
-The wireframe model is created as part of the project planning. Its task is to graphically present the appearance of the application on three different devices: computer - high resolution, tablet - medium resolution, mobile - low resolution. The application will be built on the basis of the created sketch.
+The wireframe model is created as part of the project planning. Its task is to graphically present the appearance of the application on three different devices: computer - high resolution, mobile - low resolution. The application will be built on the basis of the created sketch.
 
 ![landing](assets/media/wireframe.png)
 ![mobile](assets/media/wireframe-mobile.png)
-
+![Scoreboard](assets/media/wireframe-scoreboard.png)
+![Scoreboard-mobile](assets/media/wireframe-scoreboard-mobile.png)
 ## Features
 
 
@@ -69,7 +70,7 @@ The wireframe model is created as part of the project planning. Its task is to g
 * Accessibility
   - Colors and fonts chosen are easy to read and accessible by running it through lighthouse in dev tools.
 
-![performance01](media/performance.png)
+![performance01](assets/media/performance.png)
 
 ### Metrics
 
