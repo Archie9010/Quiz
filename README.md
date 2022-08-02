@@ -23,16 +23,19 @@ Welcome to [Big Quiz](https://archie9010.github.io/Quiz/) Big Quiz is a free web
  ## Wireframe
 The wireframe model is created as part of the project planning. Its task is to graphically present the appearance of the application on three different devices: computer - high resolution, mobile - low resolution. The application will be built on the basis of the created sketch.
 
+### Landing Page Wireframe
 ![landing](assets/media/wireframe.png)
 ![mobile](assets/media/wireframe-mobile.png)
+### Scoreboard Wireframe
 ![Scoreboard](assets/media/wireframe-scoreboard.png)
 ![Scoreboard-mobile](assets/media/wireframe-scoreboard-mobile.png)
 ## Features
 
 
 * Featured at the top of the page, Logo and title of the website can be found.
-* Scoreboard after completing 10 questions
+* Scoreboard after completing 10 questions.
 * Button designed to check all correct answers.
+* Green/Red color after clicking on one of the 4 answers, allowing the user to see if the answer was correct or not.
 
 
 ## Testing
