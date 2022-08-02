@@ -1,6 +1,6 @@
 # Big Quiz
 
-Welcome to [Big Quiz]() Big Quiz is a free web application for all your knowledge needs. The topics currently available are: Geography, Science, Anatomy and Astronomy. With Big Quiz, you can easily and efficiently refresh or expand on what you already know.
+Welcome to [Big Quiz]() Big Quiz is a free web application for all your knowledge needs. The topics currently available are: Geography, Science, Anatomy and Astronomy. With Big Quiz, you can easily and efficiently refresh or expand on what you already know. Idea of design of this app is to keep it simple and easy to navigate. 
 
 ![mockup](assets/media/mockup.png)
 
@@ -96,13 +96,12 @@ Live link: [Big Quiz](https://archie9010.github.io/Quiz/)
 
   
 * 
-   - Live Chat helps you greet users pro-actively while they are going through the website using the 'auto greetings' function and it also allows them to chat with you anonymously without providing their details like email or phone.
-* Blog 
-   - Writing posts about topics users will find interesting and helpful. 
+   - Database for scores that people could copeete 
+   - Weekly challanges 
 
 ## Credits
 
-* The Idea for this project was taken from youtube videos and love math project
+* The Idea for this project was taken from youtube videos tutorials and love math project.
 
 ### Content
 
