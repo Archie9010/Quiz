@@ -2,7 +2,7 @@
 
 Welcome to [Big Quiz]() Big Quiz is a free web application for all your knowledge needs. The topics currently available are: Geography, Science, Anatomy and Astronomy. With Big Quiz, you can easily and efficiently refresh or expand on what you already know.
 
-![mockup](media/mockup.png)
+![mockup](assets/media/mockup.png)
 
 ## Index 
 * [Technologies Used](#technologies-used)
@@ -22,15 +22,15 @@ Welcome to [Big Quiz]() Big Quiz is a free web application for all your knowledg
  ## Wireframe
 The wireframe model is created as part of the project planning. Its task is to graphically present the appearance of the application on three different devices: computer - high resolution, tablet - medium resolution, mobile - low resolution. The application will be built on the basis of the created sketch.
 
-![landing](media/wireframe.png)
-![mobile](media/wireframe-mobile.png)
+![landing](assets/media/wireframe.png)
+![mobile](assets/media/wireframe-mobile.png)
 
 ## Features
 
 
-* Featured at the top of the page, The navigation shows the page name in the left corner: Beautiful Castles that links to the Home page. When hovered over Home, Castles and Contact golden underline appears for easy navigation
-* Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Castles and Contact page and is identical on each page to allow for easy navigation.
-* This section will allow the user to easily navigate from page to page across all devices without having to revert to the previous page via the ‘back’ button.
+* Featured at the top of the page, Logo and title of the website can be found.
+* Score board after answering on 10 questions 
+* Checking all answers.
 
 
 ## Testing
@@ -40,9 +40,10 @@ The wireframe model is created as part of the project planning. Its task is to g
    
 | Test Label         |            Test Action           |         Expected Outcome           | Test Outcome    |
 |:------------------ |:---------------------------------|:-----------------------------------|:----------------|
-| Website buttons    |  Responsive button               | Navigate to external websites      | PASS            |
-| Let's go button    |  Responsive Let's go button      | Navigates to gallery               | PASS            |
-
+|A,B,C,D answers     |  Responsive                      | Navigate to next question          | PASS            |
+|Back to quiz button |  Responsive Back to Quiz button  | Navigates to landing page          | PASS            |
+|Check Answers button|  Responsive Check Answer button  | Display all answers                | PASS            |
+|Scoreboard          |  Calculation of Correct Answers  | Display Score                      | PASS            |
 
 ### Browser Compatibility
 
@@ -59,11 +60,11 @@ The wireframe model is created as part of the project planning. Its task is to g
 
 * HTML
   - No errors were found when passing throught the [W3C validator](https://validator.w3.org/)
-![html-test](media/html-test.png)
+![html-test](assets/media/html-test.png)
 
 * CSS
   - No errors were found when passing through the [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
-  ![css-test](media/css-test.png)
+  ![css-test](assets/media/css-test.png)
 
 * Accessibility
   - Colors and fonts chosen are easy to read and accessible by running it through lighthouse in dev tools.
@@ -72,7 +73,7 @@ The wireframe model is created as part of the project planning. Its task is to g
 
 ### Metrics
 
-![performance02](media/metrics.png)
+![performance02](assets/media/metrics.png)
 
 ## Deployment
 
