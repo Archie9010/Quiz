@@ -1,6 +1,6 @@
 # Big Quiz
 
-Welcome to [Big Quiz](https://archie9010.github.io/Quiz/) Big Quiz is a free web application for all your knowledge needs. The topics currently available are: Geography, Science, Anatomy and Astronomy. With Big Quiz, you can easily and efficiently refresh or expand on what you already know. Website was desinged with idea to be simple and easy to use with minimal complexity.
+Welcome to [Big Quiz](https://archie9010.github.io/Quiz/) Big Quiz is a free web application for all your knowledge needs. The topics currently available are: Geography, Science, Anatomy and Astronomy. With Big Quiz, you can easily and efficiently refresh or expand on what you already know. The website was designed with the goal of being simple and easy to use with little complexity.
 
 ![mockup](assets/media/mockup.png)
 
@@ -18,6 +18,7 @@ Welcome to [Big Quiz](https://archie9010.github.io/Quiz/) Big Quiz is a free web
  * [CSS3](https://en.wikipedia.org/wiki/CSS)
  * [Git](https://en.wikipedia.org/wiki/Git) 
  * [Github](https://en.wikipedia.org/wiki/GitHub) 
+ * [Balsamiq](https://en.wikipedia.org/wiki/Balsamiq)
 
  ## Wireframe
 The wireframe model is created as part of the project planning. Its task is to graphically present the appearance of the application on three different devices: computer - high resolution, mobile - low resolution. The application will be built on the basis of the created sketch.
@@ -30,8 +31,8 @@ The wireframe model is created as part of the project planning. Its task is to g
 
 
 * Featured at the top of the page, Logo and title of the website can be found.
-* Score board after answering on 10 questions 
-* Checking all answers.
+* Scoreboard after completing 10 questions
+* Button designed to check all correct answers.
 
 
 ## Testing
@@ -48,10 +49,10 @@ The wireframe model is created as part of the project planning. Its task is to g
 
 ### Browser Compatibility
 
-* Chrome (97) - Pass
-* firefox (96) - Pass 
-* Safari (15.2)- Pass 
-* Edge (97) - Pass 
+* Chrome (103) - Pass
+* firefox (102) - Pass 
+* Safari (15.4)- Pass 
+* Edge (103) - Pass 
 
 ### Bugs
 
@@ -102,7 +103,7 @@ Live link: [Big Quiz](https://archie9010.github.io/Quiz/)
 
 ## Credits
 
-* The Idea for this project was taken from youtube videos tutorials and love math project.
+* The inspiration for this project came from YouTube videos and the love math project.
 
 ### Content
 
@@ -111,7 +112,7 @@ Live link: [Big Quiz](https://archie9010.github.io/Quiz/)
 
 ### Media
 
-* The Logo in the header,  were taken from [Freepik](https://www.freepik.com/free-photos-vectors/quiz-logo)
+* The Logo in the header, was taken from [Freepik](https://www.freepik.com/free-photos-vectors/quiz-logo)
 
 ### Code
 

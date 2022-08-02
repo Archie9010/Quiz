@@ -1,54 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!-- font awesome and google fonts -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Big Quiz</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1 class="heading">
-        <img class="logo" src="assets/media/logo.png" alt="logo">Big Quiz
+      <img class="logo" src="assets/media/logo.png" alt="logo">Big Quiz
     </h1>
-<!--quiz container -->
+    <!--quiz container -->
     <div class="game-area">
-        <div id="quiz-container">
-            <div class="questions">
-                <h2 id="question">Question</h2>
-            <ol type="A">
-                <li class="option"><span id="option0" onclick="calcScore(this)"></span></li>
-                <li class="option"><span id="option1" onclick="calcScore(this)"></span></li>
-                <li class="option"><span id="option2" onclick="calcScore(this)"></span></li>
-                <li class="option"><span id="option3" onclick="calcScore(this)"></span></li>
-            </ol>
-            </div>
+      <div id="quiz-container">
+        <div class="questions">
+          <h2 id="question">Question</h2>
+          <ol type="A">
+            <li class="option">
+              <span id="option0" onclick="calcScore(this)"></span>
+            </li>
+            <li class="option">
+              <span id="option1" onclick="calcScore(this)"></span>
+            </li>
+            <li class="option">
+              <span id="option2" onclick="calcScore(this)"></span>
+            </li>
+            <li class="option">
+              <span id="option3" onclick="calcScore(this)"></span>
+            </li>
+          </ol>
         </div>
+      </div>
     </div>
-
-<!--score section-->
-<div id="scoreboard">
-    <img src="assets/media/logo.png" alt="logo">
-    <h2 id="score-title">Your Score:</h2>
-<!--score-->    
-    <h2 id="score"></h2>
-    <button type="button" id="score-btn" onclick="backToQuiz()">Back to Quiz</button>
-    <button type="button" id="check-answer" onclick="checkAnswer()">Check Answers</button>
-</div>
-    
-     <!--answer section-->
-     <div id="answerBank">
-        <h2>Answers :</h2>
-        <ol type="1" id="answers">
-
-        </ol>
-        <button type="button" onclick="backToQuiz()">Back to Quiz</button>
-    </div> 
-
+    <!--score section-->
+    <div id="scoreboard">
+      <img src="assets/media/logo.png" alt="logo">
+      <h2 id="score-title">Your Score:</h2>
+      <!--score-->
+      <h2 id="score"></h2>
+      <button type="button" id="score-btn" onclick="backToQuiz()">Back to Quiz</button>
+      <button type="button" id="check-answer" onclick="checkAnswer()">Check Answers</button>
+    </div>
+    <!--answer section-->
+    <div id="answerBank">
+      <h2>Answers :</h2>
+      <ol type="1" id="answers"></ol>
+      <button type="button" onclick="backToQuiz()">Back to Quiz</button>
+    </div>
     <script src="assets/js/script.js"></script>
-</body>
+  </body>
 </html>
